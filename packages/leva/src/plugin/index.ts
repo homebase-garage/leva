@@ -5,11 +5,11 @@ import React from 'react'
 import { Row, Label, Portal, Overlay } from '../components/UI'
 import { String } from '../plugins/String'
 import { Number } from '../plugins/Number'
+import { RangeSlider } from '../plugins/Number/RangeSlider'
 import { Boolean } from '../plugins/Boolean'
 import { Select } from '../plugins/Select'
 import { Vector } from '../plugins/Vector'
 import { InnerLabel } from '../components/ValueInput/StyledInput'
-import { RangeSlider } from '../components/Number/RangeSlider'
 
 export const Components: Record<string, React.ComponentType<any>> = {
   Row,
